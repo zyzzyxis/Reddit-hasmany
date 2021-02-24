@@ -8,4 +8,7 @@ class SubsController < ApplicationController
   def new
     render json: {subs: Sub.all}
   end
+
+  def show
+  end
 end

@@ -1,3 +1,25 @@
 // Place all the styles related to the subs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+
+//@import url<link href="https://fonts.googleapis.com/css2?family=Karla:wght@200&display=swap" rel="stylesheet">
+
+* {
+  font-family: 'Oxygen', sans-serif;
+}
+
+.subs-container{
+  max-width: 600px;
+  margin: auto;
+}
+
+.sub-container{
+  min-height: 100px;
+  padding: 20px;
+  margin: 20px;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 2px 4px lightblue;
+  border-radius: 4px;
+  
+}
